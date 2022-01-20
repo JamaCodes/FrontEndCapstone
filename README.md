@@ -13,7 +13,7 @@
 
 ## What is Tell Em Why You Mad?
 
-Tell Em Why You Mad is a new product offering that you have been tasked with building. It's an app for people to use to organize their daily tasks, events, news article, friends, and chat messages. Users can either log in or register, and then get started adding articles, tasks, events, and messages. 
+Tell Em Why You Mad is a new product offering that allows you to quickly create email advocacy campaigns. It's an app for everyday people to use to organize their community behind an issue and vote in a lawmakers inbox. Users can either log in or register, and then get started adding campaigns and emails.
 
 
 [ERD]-()
@@ -26,7 +26,8 @@ To start you off, here's an example of what some of the resources in your API sh
 <!-- ### Users
 
 ```json
-{ "id": 1, "name": "Steve Brownlee", "email": "me@me.com" }
+"users": [{"id": 1, "email": "test@test.com", "name": "Camron", "isAdmin": true}],
+"campaigns": [{"id": , "title": , "templateEmail": "", "status": , "issue": ,}]
 ```
 
 
