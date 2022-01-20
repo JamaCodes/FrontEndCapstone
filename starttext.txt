@@ -1,0 +1,10 @@
+cd workspace/capstone1/server/
+npx nodemon server.js
+ 
+cd workspace/capstone1/api
+json-server -p 8088 database.json -w
+
+cd workspace/capstone1
+npm start
+
+
